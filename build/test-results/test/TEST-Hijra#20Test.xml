@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Hijra Test" tests="15" skipped="0" failures="0" errors="0" timestamp="2022-07-14T17:18:40" hostname="DESKTOP-RDQV5OE" time="12.897">
+  <properties/>
+  <testcase name="user skip pop up banner" classname="Hijra Test" time="0.18"/>
+  <testcase name="user type on search bar &quot;komputer&quot;" classname="Hijra Test" time="2.497"/>
+  <testcase name="user choose best product" classname="Hijra Test" time="0.232"/>
+  <testcase name="user choose the first product" classname="Hijra Test" time="5.408"/>
+  <testcase name="user can see the details of product" classname="Hijra Test" time="0.109"/>
+  <testcase name="user add item &quot;3&quot;" classname="Hijra Test" time="0.216"/>
+  <testcase name="user choose add to cart" classname="Hijra Test" time="0.123"/>
+  <testcase name="user choose ya on confirmation page" classname="Hijra Test" time="1.675"/>
+  <testcase name="user can see the details of cart" classname="Hijra Test" time="0.088"/>
+  <testcase name="user choose change kurir" classname="Hijra Test" time="0.136"/>
+  <testcase name="user choose cancel" classname="Hijra Test" time="0.322"/>
+  <testcase name="user choose delete product" classname="Hijra Test" time="0.186"/>
+  <testcase name="user choose ok delete" classname="Hijra Test" time="0.873"/>
+  <testcase name="user can see empty product on the shopping cart" classname="Hijra Test" time="0.086"/>
+  <testcase name="classMethod" classname="Hijra Test" time="18.161"/>
+  <system-out><![CDATA[
+@Web @Elevania
+Scenario Outline: Hijra Test                           ?[90m# src/test/resources/features/elevania.feature:23?[0m
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 37389
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 15, 2022 12:18:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

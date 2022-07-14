@@ -1,0 +1,243 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-14T17:18:35.413Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5028000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.WebdriverHooks.initializeWebdriver()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Hijra Test",
+        "description": "",
+        "id": "elevania;hijra-test;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 733000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.WebdriverHooks.quitWebdriver(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 180000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user skip pop up banner",
+            "match": {
+              "location": "demo.steps_definition.ElevaniaSteps.userSkipPopUpBanner()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2495000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user type on search bar \"komputer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"komputer\"",
+                  "offset": 24
+                }
+              ],
+              "location": "demo.steps_definition.ElevaniaSteps.userTypeOnSearchBar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user choose best product",
+            "match": {
+              "location": "demo.steps_definition.ElevaniaSteps.userChooseBestProduct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5408000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user choose the first product",
+            "match": {
+              "location": "demo.steps_definition.ElevaniaSteps.userChooseTheFirstProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user can see the details of product",
+            "match": {
+              "location": "demo.steps_definition.ElevaniaSteps.isSeeDetailsProduct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 216000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user add item \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 14
+                }
+              ],
+              "location": "demo.steps_definition.ElevaniaSteps.userAddItem(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user choose add to cart",
+            "match": {
+              "location": "demo.steps_definition.ElevaniaSteps.userChooseAddToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1676000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user choose ya on confirmation page",
+            "match": {
+              "location": "demo.steps_definition.ElevaniaSteps.userChooseYa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user can see the details of cart",
+            "match": {
+              "location": "demo.steps_definition.ElevaniaSteps.isSeeDetailsOfCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user choose change kurir",
+            "match": {
+              "location": "demo.steps_definition.ElevaniaSteps.userChooseChangeKurir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 322000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user choose cancel",
+            "match": {
+              "location": "demo.steps_definition.ElevaniaSteps.userChooseCancel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user choose delete product",
+            "match": {
+              "location": "demo.steps_definition.ElevaniaSteps.userChooseDeleteProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 872000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user choose ok delete",
+            "match": {
+              "location": "demo.steps_definition.ElevaniaSteps.userChooseOkDelete()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user can see empty product on the shopping cart",
+            "match": {
+              "location": "demo.steps_definition.ElevaniaSteps.userSeeTheEmptyProduct()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Web"
+          },
+          {
+            "name": "@Elevania"
+          }
+        ]
+      }
+    ],
+    "name": "Elevania",
+    "description": "",
+    "id": "elevania",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/elevania.feature",
+    "tags": [
+      {
+        "name": "@Web",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -17,6 +17,29 @@ public class BasePageObject {
         getDriver().findElement(element).sendKeys(text);
     }
 
+    public void clearText(By element) {
+        getDriver().findElement(element).clear();
+    }
+
+    public void scrollDown() throws InterruptedException {
+        Thread.sleep(1000);
+        JavascriptExecutor js = (JavascriptExecutor) getDriver();
+        js.executeScript("window.scrollTo(0, 350)");
+    }
+
+
+//    public void scrollIntoView(By element) {
+//        JavascriptExecutor js = (JavascriptExecutor) getDriver();
+//        js.executeScript("arguments[0].scrollIntoView();", element);
+//    }
+
+    public void moveIFrame(String elementId) {
+        getDriver().switchTo().frame(elementId);
+    }
+
+    public void moveToDefaultIFrame(){
+        getDriver().switchTo().parentFrame();
+    }
     public boolean isPresent(By element) {
         return getDriver().findElement(element).isDisplayed();
     }
